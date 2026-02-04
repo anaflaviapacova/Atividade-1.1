@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Burger 22 | A melhor da esquina</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #ffcc00;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #1e1e1e;
+            margin-bottom: 20px;
+        }
+
+        .cardapio {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 280px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .item h3 {
+            margin-top: 0;
+            color: #ff9900;
+        }
+
+        .promo {
+            background-color: #ffcc00;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Burger 22</h1>
+    <p>A melhor lanchonete da esquina 🍔</p>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#promo">Promoção</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section id="sobre">
+    <h2>Sobre nós</h2>
+    <p>
+        A Burger 22 nasceu para trazer hambúrgueres artesanais de qualidade,
+        com preço justo e aquele atendimento de bairro que todo mundo ama.
+    </p>
+</section>
+
+<section id="cardapio">
+    <h2>Cardápio</h2>
+    <div class="cardapio">
+        <div class="item">
+            <h3>Hambúrguer Clássico</h3>
+            <p>Pão, carne 160g, queijo, alface e tomate</p>
+            <strong>R$ 18,00</strong>
+        </div>
+
+        <div class="item">
+            <h3>X-Bacon</h3>
+            <p>Pão, carne, queijo, bacon crocante e molho especial</p>
+            <strong>R$ 22,00</strong>
+        </div>
+
+        <div class="item">
+            <h3>Combo Burger 22</h3>
+            <p>Hambúrguer + batata + refrigerante</p>
+            <strong>R$ 30,00</strong>
+        </div>
+    </div>
+</section>
+
+<section id="promo">
+    <div class="promo">
+        <h2>🔥 Promoção da Semana 🔥</h2>
+        <p>Na compra de 2 hambúrgueres, o refrigerante é grátis!</p>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>📍 Rua das Palmeiras, 22 – Centro</p>
+    <p>⏰ Aberto todos os dias das 18h às 23h</p>
+
+    <a class="botao" href="https://wa.me/5500000000000" target="_blank">
+        Pedir pelo WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Burger 22 – Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
